@@ -32,7 +32,7 @@ int main() {
     //на каком шаге машинка была взята, по сути для поиска самой "старой" т.к автосортировка
     priority_queue<pair<int, int>> cars_and_steps;
 
-    //счетчик
+     //счетчик
     int operations = 0;
     for (int i = 0; i < p; i++){
 
